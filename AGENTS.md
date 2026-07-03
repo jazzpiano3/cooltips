@@ -1,3 +1,27 @@
+# Project Context
+
+Before starting any task, read the following documents in order:
+
+1. PROJECT.md
+   - Project vision
+   - Product goals
+   - Engineering principles
+   - Long-term roadmap
+
+2. CURRENT_STATUS.md
+   - Current progress
+   - Completed milestones
+   - Next priorities
+   - Known issues
+
+If there is any conflict:
+
+User instructions
+
+> CURRENT_STATUS.md
+> PROJECT.md
+> AGENTS.md
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
@@ -53,3 +77,8 @@ When there are multiple reasonable implementations:
 - Recommend one.
 - Do not implement automatically.
 - Wait for confirmation.
+
+## Keep Tracking
+
+Whenever a significant milestone is completed,
+update CURRENT_STATUS.md.
