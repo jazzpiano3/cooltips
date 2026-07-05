@@ -37,6 +37,14 @@ export const metadata: Metadata = {
     url: "https://cooltips.kr",
     siteName: "CoolTips",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CoolTips - Practical knowledge, AI tools, and productivity tips",
+      },
+    ],
   },
   twitter: {
     card: "summary",
