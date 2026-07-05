@@ -13,8 +13,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CoolTips",
-  description: "Practical AI, developer tips, and productivity tools.",
+  metadataBase: new URL("https://cooltips.kr"),
+  title: {
+    default: "CoolTips",
+    template: "%s | CoolTips",
+  },
+  description:
+    "CoolTips shares practical AI, developer, and productivity tips for people who want to work smarter.",
+  keywords: [
+    "AI tips",
+    "developer tips",
+    "productivity tools",
+    "workflow tips",
+    "CoolTips",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "CoolTips",
+    description:
+      "Practical AI, developer, and productivity tips for smarter work.",
+    url: "https://cooltips.kr",
+    siteName: "CoolTips",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "CoolTips",
+    description:
+      "Practical AI, developer, and productivity tips for smarter work.",
+  },
 };
 
 export default function RootLayout({

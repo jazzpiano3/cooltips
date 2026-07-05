@@ -22,6 +22,13 @@ User instructions
 > PROJECT.md
 > AGENTS.md
 
+## Local Tracking Files
+
+- PROJECT.md and CURRENT_STATUS.md are local-only project context files.
+- They are intentionally ignored by Git and should not be committed.
+- Agents should still read them before starting work, as described above.
+- Update CURRENT_STATUS.md after significant milestones, even though it is not tracked by Git.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
